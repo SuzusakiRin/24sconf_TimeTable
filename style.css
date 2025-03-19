@@ -1,0 +1,54 @@
+table {
+    width: 100%; /* テーブルの幅を親要素に合わせる */
+    border-collapse: collapse; /* 枠の重複を除去してシンプルに */
+    margin: 20px 0; /* テーブル上下の余白 */
+    font-size: 16px; /* フォントサイズ */
+    text-align: center; /* テキストを中央揃え */
+}
+
+/* 更新ボタンの基本スタイル */
+#update-button {
+    background-color: #007bff; /* ボタンの背景色 */
+    color: white; /* ボタンの文字色 */
+    padding: 10px 20px; /* ボタン内部の余白 */
+    border: none; /* 枠線をなくす */
+    border-radius: 5px; /* 角の丸み */
+    cursor: pointer; /* ホバー時にポインタを表示 */
+    font-size: 16px; /* 文字サイズ */
+    margin: 20px 0; /* ボタン上下の余白 */
+}
+
+/* ボタンにホバーしたときのスタイル */
+#update-button:hover {
+    background-color: #0056b3; /* より濃い青色 */
+}
+
+/* テーブルの境界線 */
+table, th, td {
+    border: 1px solid #ccc; /* 薄い灰色のボーダー */
+}
+
+/* ヘッダー行スタイル */
+th {
+    background-color: #f4f4f4; /* ヘッダーの背景色 */
+    font-weight: bold; /* 太字 */
+}
+
+/* セルのスタイル */
+td {
+    padding: 5px; /* 内側の余白 */
+}
+
+/* 偶数行に背景色をつける */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* 偶数行の背景色 */
+}
+
+/* ホバー時の行ハイライト */
+tr:hover {
+    background-color: #eaf2f8; /* マウスホバー時の背景色 */
+}
+
+.yutaka{
+    font-size: 8px;
+}
